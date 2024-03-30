@@ -1,0 +1,51 @@
+.banner {
+    position: relative;
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../images/identityv.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 1); /* 增加黑色遮罩的透明度 */
+    opacity: 1; 
+    z-index: -1; 
+}
+
+.banner h1 {
+  font-size: 50px;
+  /* 添加黑色边框效果 */
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: 500; 
+  opacity: 0.8;
+  margin-bottom: 40px;
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.banner .container .btn-blue {
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+

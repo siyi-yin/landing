@@ -1,0 +1,22 @@
+.btn-blue {
+ background-color: #59D5E0;	
+ padding:15px 20px;
+ border-radius: 4px;
+ color: white;
+ font-weight: bold;
+}
+
+.btn-blue {
+  background-color: #7D0A0A; /* 设置按钮的背景颜色 */
+}
+
+.btn-blue:hover {
+  background-color: #321E1E; 
+  /* 其他鼠标悬停时的样式调整 */
+}
+
+.center-btn {
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
+}
